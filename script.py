@@ -107,6 +107,7 @@ def add_card(row):
 
     
 def submit_account(e_id, e_password, root):
+    #Save data account
     with open('account.csv', 'a', newline='') as file:
         writer = csv.writer(file)
         writer.writerow([e_id.get(),e_password.get()])
@@ -117,6 +118,7 @@ def submit_account(e_id, e_password, root):
     login_window()
 
 def submit_data(row, e_name, e_company, e_email, e_phone, root):
+    #Submit data on the file data user
     with open(row[0]+'.csv', 'a', newline='') as file:
         writer = csv.writer(file)
         writer.writerow([e_name.get(),e_company.get(),
@@ -128,6 +130,7 @@ def submit_data(row, e_name, e_company, e_email, e_phone, root):
 
 
 def authenticator(e_user, e_password, root):
+    #Verifiy if the account exist
     with open('account.csv', 'r',) as file:
         reader = csv.reader(file, delimiter=',')
         for row in reader:
@@ -137,6 +140,7 @@ def authenticator(e_user, e_password, root):
     file.close()
 
 def library(data,root):
+    #Show all the data saved
     with open(data+'.csv', 'r',) as file:
         reader = csv.reader(file, delimiter=',')
         for row in reader:
@@ -147,6 +151,7 @@ def library(data,root):
     file.close()
     
 def clear_createacc(root):
+    #Switching window
     root.destroy()
     create_account()
  
