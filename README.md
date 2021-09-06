@@ -5,7 +5,9 @@ Pourquoi Python ?
 -C'est un langage intuitif et souple.
 
 -C'est un langage que j'utilise habituellement (depuis le lycee).
+
 -Il possède des modules qui m'ont facilité au développent du programme (tkinter).
+
 -Comme le projet utilise des formulaires, j'ai utilisé un module orienté fichier (csv), qui remplace ma base de données.
 
 ==================================================================================
