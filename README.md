@@ -15,11 +15,17 @@ Pourquoi Python ?
 Comment le programme fonctionne-t-il ?
 
 L'application se présente sous un script exécutable.
+
 Une fenêtre de connexion apparait, vous devez créer un compte afin de vous log. Des fichiers csv apparaissent (Account.csv et "identifiant".csv).
+
 Une fois la création du compte réalisée, vous entrez l'identifiant et mot de passe.
+
 Vous êtes dirigés dans votre compte.
-Vous pouvez ajouter des cartes de business et celles-ci s'afficheront sur votre compte
+
+Vous pouvez ajouter des cartes de business et celles-ci s'afficheront sur votre compte.
+
 Une fois les opérations terminées, appuyez sur le bouton "Logout" pour vous déconnecter.
+
 Les données sont sauvegardées.
 
 
@@ -28,4 +34,5 @@ Les données sont sauvegardées.
 Prérequis
 
 Python Version 3
+
 Module Tkinter, CSV, OS
